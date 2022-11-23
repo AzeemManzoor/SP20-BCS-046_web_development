@@ -1,0 +1,154 @@
+.logo{
+    background-color: red;
+    color: aliceblue;
+    height: 60px;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.logo2{
+    background-color: red;
+    color: aliceblue;
+    height: 60px;
+    width: 10%;
+    margin-left: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.nave{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.navbar-brand ,.navbar-toggler, .nav-link{
+    margin-right: 80px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.add{
+    color: aliceblue;
+    border: solid red;
+    height: 60px;
+    width: 45%;
+    margin-left: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.img{
+    width: 70%;
+    margin-left: 210px;
+}
+
+.maindiv{
+    color: black;
+    width: 40%;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 250px;
+}
+.main1{
+    color: black;
+    border: solid black;
+    width: 35%;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 38px;
+}
+.bigdiv{
+    color: black;
+    
+    width: 40%;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 250px;
+}
+.big{
+    color: black;
+    border: solid black;
+    width: 15%;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.big:hover{
+    background-color: grey;
+}
+.footer{
+    border-top: solid red;
+    width: auto;
+    height: 100px;
+    
+}
+.foot{
+    color: black;
+    
+    width: 15%;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.foot:hover{
+    color: red;
+
+}
+
+
+.icons{
+    width: auto;
+    height: 500px;
+    margin-left: 30%;
+    
+}
+.ic{
+    color: black;
+    width: 15%;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.ic:hover{
+    color: red;
+}
+
+
