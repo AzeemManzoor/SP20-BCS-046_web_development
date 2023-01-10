@@ -1,0 +1,258 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-color:whitesmoke;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.nav-ul li a{
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 5px;
+  margin: auto;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: #020303;
+}
+
+.nav-ul li a:hover {
+  padding: 20px;
+  border-radius: 15px;
+  color: #0bd189;
+  
+}
+
+.myfooter{
+  position: absolute;
+  /* bottom: 0;  */
+  margin-top: 95px;
+  text-align: center;
+  width: 100%;
+  background-color: #020303;
+  color: antiquewhite;
+  
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 10px;
+  border-radius: 100%;
+  text-align: center;
+  justify-items: center;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding-right: 45px;
+  text-align: center;
+  justify-items: center;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding-right: 50px;
+}
+
+.fa-google {
+ background: conic-gradient(from -60deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  color: white;
+  padding-right: 50px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding-right: 50px;
+}
+
+.footer:hover {
+  background-color: #04AA6D;
+  padding: 4px;
+}
+
+
+
+
+.product{
+  margin-left: 30%;
+  margin-top: 50px;
+}
+
+.login,.register{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.inputBox{
+  display: block;
+   margin: 25px;
+  padding: 7px;
+  width: 300px; 
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: small;
+}
+.inputBox:hover{
+  border-color: #04AA6D;
+  text-decoration-color: #04AA6D;
+  color: #04AA6D;
+}
+
+.appButton{
+  margin:25px ;
+  margin-top: 0;
+  padding: 10px;
+  width: 150px;
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: medium;
+
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+  font-size: x-small;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  font-size: medium;
+  display: inline-block;
+  border: 1px solid #04AA6D;;
+  padding: 3px;
+  width: 200px;
+  height: 35px; 
+}
+.product-list ul li:hover{
+  color: #04AA6D;
+}
+
+
+.product-list ul{
+  /* margin-bottom:-40px; */
+}
+.delete-button,.update{
+  background-color: red;
+  border-color: red;
+  color: aliceblue;
+  font-size: x-small;
+  cursor: pointer;
+  margin-left: 7px;
+}
+.update{
+  background-color: rgb(56, 189, 56);
+  border-color: rgb(56, 189, 56);
+  color: aliceblue;
+  font-size: x-small;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+.update:hover{
+  background-color: #04AA6D;
+  color: black;
+  border-color: #04AA6D;
+}
+.delete-button:hover{
+  background-color: #04AA6D;
+  color: black;
+  border-color: #04AA6D;
+}
+
+.delete-button{
+  width: 50px;
+}
+
+.filename{
+  color: #020303;
+}
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  padding-left: 20px;
+  border: 3px solid black;
+  border-radius: 40px;
+  font-size: smaller;
+}
+.search-product-box:hover{
+       border:  5px solid #04AA6D;
+       text-decoration-color: #04AA6D;
+       color: #04AA6D;
+}
+
+
+.no-result{
+  margin-top: 50px;
+}
+
+.appButton:hover{
+  background-color:#04AA6D;
+  border-color: #04AA6D;
+  width: 80px;
+  height: 80px;
+  transition: width 5s, height 5s;
+  /* transform: rotateZ(50deg); */
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
